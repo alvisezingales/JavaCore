@@ -11,3 +11,6 @@ You can play 1 vs 1 OR with friends!
   	your own file and just add it to the file scanner, I'd suggest you to make it simple:
 	1) the file will be better have just a single word for each line if you want it to work well. 
   	2) I also suggest you to have all of the words in lower-case and without accents :)
+
+NOTE: 
+I used a YouTube video as a basis to create this little Hangman program (you can find it on the channel "Coding With John", if you want to learn or improve your Java go check it out, it's one of my favourite Java Channels!)
