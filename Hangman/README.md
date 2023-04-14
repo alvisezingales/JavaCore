@@ -1,8 +1,8 @@
-#The Hangman Game
+The Hangman Game
 
-Hi there, feel free to play!
-You can play 1 vs 1 OR with friends!
-I just let you know that:main
+	Hi there, feel free to play!
+	You can play 1 vs 1 OR with friends!
+	I just let you know that:main
 
 - in 1 vs Computer you need to have a file to read and you'll have to specify the file path in:
       src > functionalities [package] > PlayerGuide [class] > readPlayerModeChoise [method]
