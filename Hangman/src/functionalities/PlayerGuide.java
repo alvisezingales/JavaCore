@@ -36,7 +36,7 @@ public class PlayerGuide {
     public void readPlayerModeChoise(Scanner scanner) throws FileNotFoundException{
         try{
             welcomePlayer();
-            wordGenerator = new WordGenerator(new File("C:\\Users\\icaro\\Downloads\\linguaggiProgrammazioneStudio\\myJavaGitHub\\HangmanGame\\hangmanWords.txt"));
+            wordGenerator = new WordGenerator(new File("C:\\Users\\icaro\\Desktop\\JavaCore\\JavaCore\\Hangman\\hangmanWords.txt"));
             playersNumber = scanner.nextLine();
 
             if (playersNumber.equals("1")){
@@ -57,10 +57,10 @@ public class PlayerGuide {
             }
         } catch(NullPointerException nullPointerException){
             nullPointerException.printStackTrace();
-            System.out.println("Null pointer exception! - readPlayerModeChoise method");
+            System.out.println("Null pointer exception! - readPlayerModeChoise method [PlayerGuide class]");
         } catch(Exception e) {
             e.printStackTrace();
-            System.out.println("Error! - readPlayerModeChoise method");
+            System.out.println("Error! - readPlayerModeChoise method [PlayerGuide class]");
         }finally {
             scanner.close();
         }

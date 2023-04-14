@@ -39,13 +39,13 @@ public class WordGenerator {
 
         } catch(NullPointerException nullPointerException){
             nullPointerException.printStackTrace();
-            System.out.println("Null pointer exception! - generateWord method");
+            System.out.println("Null pointer exception! - generateWord method [WordGenerator class]");
         }catch(FileNotFoundException fileNotFoundException){
             fileNotFoundException.printStackTrace();
-            System.out.println("File not found error! - generateWord method");
+            System.out.println("File not found error! - generateWord method [WordGenerator class]");
         } catch(Exception e) {
             e.printStackTrace();
-            System.out.println("Error! - generateWord method");
+            System.out.println("Error! - generateWord method [WordGenerator class]");
         }finally {
             scanner.close();
         }

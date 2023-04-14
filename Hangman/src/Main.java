@@ -6,10 +6,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 
-        PlayerGuide playerGuide = new PlayerGuide();
         Scanner keyboard = new Scanner(System.in);
+        try{
+            PlayerGuide playerGuide = new PlayerGuide();
+            playerGuide.readPlayerModeChoise(keyboard);
+        }
+        catch(Exception e){
+            e.printStackTrace();
+            System.out.println("Error! - main method [Main class]");
+        }
+        finally {
+            keyboard.close();
+        }
 
-        playerGuide.readPlayerModeChoise(keyboard);
 
 
     }
