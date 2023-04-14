@@ -1,4 +1,4 @@
-#The Hangman Game
+The Hangman Game
 
 Hi there, feel free to play!
 You can play 1 vs 1 OR with friends!
