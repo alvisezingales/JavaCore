@@ -1,7 +1,9 @@
-The Hangman Game
+<h2 align="center">
+🚹 The Hangman Game
+</h2> 
 
 Hi there, feel free to play!
-You can play 1 vs 1 OR with friends!
+You can play versus the Computer 💻 OR with friends 👯!
 
 	I just let you know that in 1 vs Computer you need to have a file to read and you'll have to specify the file path in:
 	
