@@ -8,5 +8,6 @@ You can play 1 vs 1 OR with friends!
       		src > functionalities [package] > PlayerGuide [class] > readPlayerModeChoise [method]
 		
   	The file I created (hangmanWords.txt) for this repository contains some uncommon italian words, but you can create
-  	your own, just remember that it has to have a single word for each line for it to work well. 
-  	I suggest you to have them all in lower-case and without accents :)
+  	your own file and just add it to the file scanner, I'd suggest you to make it simple
+	with just a single word for each line if you want it to work well. 
+  	And I also suggest you to have the words in lower-case and without accents :)
