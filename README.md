@@ -1,11 +1,17 @@
-# JavaCoreExercises
-Here's a few projects I had the pleasure to build and some exercises I had fun to solve!
+<h2 align="center">
+☕ JavaCore
+</h2> 
 
--> Projects:
-   - Rock Paper Scissors
-   - The Hangman Game
+Here's a few projects I had the pleasure to build and some exercises I had fun to solve using just Java Core!
+
+</br>
+
+-> 📎 Projects:
+   - Rock Paper Scissors ✊✋✌️
+   - The Hangman Game 🚹
    - The Sudoku Game [work in progress...]
    
-   
--> Exercises:
+</br>  
+
+-> 📝 Exercises:
    - The Fibonacci Sequence
