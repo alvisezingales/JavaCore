@@ -47,7 +47,7 @@ public class PlayerGuide {
                 System.out.println(MULTIPLE_PLAYERS_BEGINNING_RULE_1);
 
                 //one of the players will choose and type a word in, then the program will print automatically
-                //some lines to hide the word that has been chosen, so that the other player don't cheat
+                //some lines to hide the word that has been chosen, so that the other players don't cheat
                 chosenWord = scanner.nextLine();
                 System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 
