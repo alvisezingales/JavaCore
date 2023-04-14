@@ -1,5 +1,5 @@
 <h2 align="center">
-☕ JavaCoreExercises
+☕ JavaCore
 </h2> 
 
 Here's a few projects I had the pleasure to build and some exercises I had fun to solve!
