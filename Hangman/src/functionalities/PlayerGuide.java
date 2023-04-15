@@ -40,7 +40,7 @@ public class PlayerGuide {
             playersNumber = scanner.nextLine();
 
             if (playersNumber.equals("1")){
-                System.out.println("1 vs 1 it is, may the best win!");
+                System.out.println("Dare you challenge a computer, human? May the best win!");
                 wordGenerator.generateWord(wordGenerator.getFile());
             }else {
                 gameChecker = new GameChecker();
