@@ -11,7 +11,8 @@ Here's a few projects I had the pleasure to build and some exercises I had fun t
    - The Hangman Game 🚹
 <!--
    - The Sudoku Game [work in progress...]
- >  
+-->
+
 </br>  
 
 -> 📝 Exercises:
