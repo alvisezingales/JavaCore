@@ -13,4 +13,11 @@ public class FibonacciNegativeNumberException extends RuntimeException {
     public FibonacciNegativeNumberException(String message) {
         super(message);
     }
+
+    //another constructor offered by the generic Exception class, it takes a message and a throwable as parameters.
+    //It is useful in case my custom exception is caused by some other exception, in this case I can pass the throwable
+    //of this other exception printing the cause.
+    public FibonacciNegativeNumberException(String message, Throwable cause) {
+        super(message, cause);
+    }
 }

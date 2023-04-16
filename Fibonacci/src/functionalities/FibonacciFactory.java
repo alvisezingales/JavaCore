@@ -83,9 +83,9 @@ public class FibonacciFactory {
                     System.out.println(OBSERVATION);
                 }
             }else if(n > 92){
-                throw new FibonacciOutOfBoundException("This program uses long types, it can calculate up to the 92th element of the Fibonacci Sequence");
+                throw new FibonacciOutOfBoundException("This program uses long types, it can calculate up to the 92th element of the Fibonacci Sequence", new RuntimeException());
             }else if(n < 0){
-                throw new FibonacciNegativeNumberException("You can only enter a value from 0 to 92, negative numbers are not valid");
+                throw new FibonacciNegativeNumberException("You can only enter a value from 0 to 92, negative numbers are not valid", new RuntimeException());
             }
 
         }catch(FibonacciOutOfBoundException fibonacciOutOfBoundException){

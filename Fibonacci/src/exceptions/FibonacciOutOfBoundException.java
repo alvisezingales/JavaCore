@@ -13,4 +13,11 @@ public class FibonacciOutOfBoundException extends RuntimeException{
     public FibonacciOutOfBoundException(String message) {
         super(message);
     }
+
+    //another constructor offered by the generic Exception class, it takes a message and a throwable as parameters.
+    //It is useful in case my custom exception is caused by some other exception, in this case I can pass the throwable
+    //of this other exception printing the cause.
+    public FibonacciOutOfBoundException(String message, Throwable cause) {
+        super(message, cause);
+    }
 }

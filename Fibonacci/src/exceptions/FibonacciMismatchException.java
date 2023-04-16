@@ -15,4 +15,11 @@ public class FibonacciMismatchException extends InputMismatchException {
     public FibonacciMismatchException(String s) {
         super(s);
     }
+
+    //Why isn't here a throwable parameter? Because it extends InputMismatchException,
+    //if it extended the RuntimeException or Exception class, we could also inherit
+    //the constructors with throwable, but we're not. We are instead extending the
+    //InputMismatchException. Why so? Because it is better to extend the exception class we know
+    //it is the most similar to the one we're implementing.
+
 }
