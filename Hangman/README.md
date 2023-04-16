@@ -13,12 +13,9 @@ You can play versus the Computer 💻 OR with friends 👯!
   	your own file and just add it to the file scanner, I'd suggest you to make it simple:
 	1) the file will be better have just a single word for each line if you want it to work well. 
   	2) I also suggest you to have all of the words in lower-case and without accents :)
-	
-<h3 align="center">
-Preview:
-</h3>
+</br>	
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/116837478/232334574-642ad75a-294c-4e89-844d-8b4f98564869.gif"/>
+  <img src="https://user-images.githubusercontent.com/116837478/232335009-69f77f36-48d7-49ed-bc23-7433f7a54490.gif"/>
 </p>
 </br>
 - NOTE:
