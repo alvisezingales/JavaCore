@@ -17,7 +17,11 @@ You can play versus the Computer 💻 OR with friends 👯!
 <h3 align="center">
 Preview:
 </h3>
-
+<!--
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/116837478/232333654-8acc8622-13d4-4043-8f65-f18da47bf55a.gif" width="670"/>
+</p>
+-->
 </br>
 - NOTE:
 	I used a YouTube video as a basis to create this little Hangman program (you can find it on the channel "Coding With John", if you want to learn or improve your Java go check it out, it's one of my favourite Java Channels!)
