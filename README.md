@@ -14,4 +14,4 @@ Here's a few projects I had the pleasure to build and some exercises I had fun t
 </br>  
 
 -> 📝 Exercises:
-   - The Fibonacci Sequence
+   - The Fibonacci Sequence 0️⃣1️⃣1️⃣...
