@@ -1,0 +1,19 @@
+Ricorda:
+execute per le CREATE
+executeUpdate per modifica, delete o inserzione di dati
+executeQuery per le select
+--------------------------------------------------------
+DOMANDE
+--------------------------------------------------------
+
+07-02-2023
+
+(creare, descrivere (select), inserire tabelle)
+
+1) Vedere se il codice di RestaurantDBTable è corretto:
+    - il metodo per creare la tabella restaurant
+    - il metodo per vedere la tabella restaurant
+    - il metodo per inserire i dati nella tabella restaurant
+      (dove si mette il prepared statement con tutte le inserzioni possibili? nel main?)
+
+2) Come mai il DBMain non parte? Che errori ci sono?

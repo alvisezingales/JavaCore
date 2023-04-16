@@ -1,0 +1,65 @@
+interface IPrintable: { print }
+
+AbstractGoods class:
+	private double price;
+	private String name;
+	private String tablePosition;
+
+//public abstract void gnegne() la mettiamo nell'interface
+
+restaurant.Menu class:
+	public String restaurantName;
+	public String menuType;
+
+	public First mainCourse;
+	public Second secondCourse;
+	public dishes.Dessert dessert;
+
+	@print from interface lol
+
+
+First class extends AbstractGoods, implements IPrintable:
+
+	[abstract stuff...]
+
+	public String mainIngredients;
+
+Second class extends AbstractGoods, implements IPrintable:
+
+	[abstract stuff...]
+
+	public String secondIngredientsEasy;
+
+dishes.Dessert class extends AbstractGoods, implements IPrintable:
+
+	[abstract stuff...]
+
+	public String dessertIngredientsEasy;
+
+
+dishes.Drink class extends AbstractGoods, implements IPrintable:
+
+	[abstract stuff...]
+
+	public String typeOfDrink;
+
+
+--------------------------------------------------------------------------------------------------------------
+
+1) - Sistemare il print della classe dishes.Dish
+
+
+2) - Togliere il toString in D,D,F,S.
+   - Overridare il print della classe dishes.Dish.
+       -- Sotto al super di questo print aggiungere il field specifico della classe
+
+3) - Sistemare il print nella classe restaurant.Menu
+
+
+Compiti:
+
+dishes.Drink, dishes.Dessert: ALVISE 2)
+
+dishes.FirstCourse, dishes.SecondCourse: DANIELE 2)
+
+restaurant.Menu, dishes.Dish: Valentina 1), 3)

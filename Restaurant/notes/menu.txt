@@ -1,0 +1,11 @@
+Ristorante Gruppo 4 Java 8
+Tipo di menu: pesce
+Bevande: vino rosso
+Primo piatto: Spaghetti allo scoglio
+Secondo piatto: orata al forno (il cameriere vi sostituirà il vino rosso con un bel bianco dell'Etna, scusandosi)
+dishes.Dessert: Cheese cake
+         Crema Catalana
+         Tiramisù
+
+
+git flow piatto
